@@ -101,7 +101,7 @@ class NitroSenseGUI(QMainWindow):
         except PermissionError:
             self.output_text.append(f"Hata: {self.ec_path} dosyasına erişim izni yok!")
             QMessageBox.critical(self, "Hata",
-                f"{self.ec_path} dosyasına erişim izni yok!\n"
+                f"{self.ec_path} dosyasına erişim izni yok!\n"nitrofan_control.py
                 "Script'i 'sudo' ile çalıştırın veya dosya izinlerini kontrol edin: 'sudo chmod 660 /dev/ec'")
             return False
         self.output_text.append(f"{self.ec_path} erişilebilir.")
@@ -192,7 +192,7 @@ class NitroSenseGUI(QMainWindow):
 if __name__ == "__main__":
     if os.geteuid() != 0:
         print("Hata: Bu uygulama root yetkileri gerektirir.")
-        print("Lütfen 'sudo python3 main.py' ile çalıştırın.")
+        print("Lütfen 'sudo python3 nitrofan_control.py' ile çalıştırın.")
         sys.exit(1)
     app = QApplication(sys.argv)
     window = NitroSenseGUI()

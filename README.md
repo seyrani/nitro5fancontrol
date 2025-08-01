@@ -142,4 +142,4 @@ This project is a PyQt5-based graphical user interface (GUI) application for con
    * Verify your device model: `dmidecode -s system-product-name`
    * Review the logs for compatibility with your Acer Nitro device.
    * 
-It has been coded with Python and PyQt, based on the fork of Jebaitedneko/Acer-Nitro-5-AN515-58-EC-Control-Linux.
+It has been coded with Python and PyQt, based on the fork of Jebaitedneko/Acer-Nitro-5-AN515-58-EC-Control-Linux, and tested on Linux Mint 22.1.

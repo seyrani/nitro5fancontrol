@@ -8,7 +8,6 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt
 
-## forked from Jebaitedneko/Acer-Nitro-5-AN515-58-EC-Control-Linux
 
 class NitroSenseGUI(QMainWindow):
     def __init__(self):

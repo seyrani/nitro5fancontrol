@@ -23,7 +23,7 @@ This project is a PyQt5-based graphical user interface (GUI) application for con
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/<username>/nitrofan-control.git
+   git clone https://github.com/<username>/nitro5fancontrol.git
    cd nitrofan-control
    ```
 

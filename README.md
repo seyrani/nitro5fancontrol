@@ -85,7 +85,7 @@ This project is a PyQt5-based graphical user interface (GUI) application for con
 * **Run the Application**:
 
   ```bash
-  sudo python3 main.py
+  sudo python3 nitrofan_control.py
   ```
 
   If you get an X11 error, use the `xhost` command mentioned above.
